@@ -271,15 +271,15 @@ $black: #000;
 
 .bg-image {
   background-size: cover;
-
+  background-position: top;
   background-repeat: no-repeat;
 }
 
 .site-section {
-  padding: 1em 0;
+  padding: 7em 0;
   &.darken-bg {
-    background: lighten($black, 3%);
-    position: fixed;
+    background: lighten($black, 10%);
+    position: relative;
     &:before {
       content: "";
       position: absolute;
